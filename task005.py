@@ -7,7 +7,7 @@ def clear(): return os.system('cls')
 
 
 clear()
-list = [randint(-100, 100) for i in range(10)]
+list = [randint(-100, 100) for i in range(11)]
 print(list)
 for i in range(len(list) // 2):
     box = list[i]
